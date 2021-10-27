@@ -50,10 +50,10 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "{}, you are **not subscribed** to my [channel](https://t.me/{}) yet. Please [join](https://t.me/{}) and **press the button below** to unmute yourself.".format(message.from_user.mention, channel, channel),
+              "{}, you are **not subscribed** to my [channel](https://t.me/{}) yet. Please [join](https://t.me/{}) and **press the button below** to unmute yourself **SORRY THAT YOU MUST HAVE TO JOIN THIS CHANNEL FOR BACKUP WE GOT 3 TIMES COPYRIGHT AND MORE THAN 3K MEMBERS LOST**.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
-                  [[InlineKeyboardButton("📢 Join Update Channel 📢", url=f"https://t.me/{channel}")],
+                  [[InlineKeyboardButton("📢 Join Backup Channel 📢", url=f"https://t.me/{channel}")],
                    [InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")]]
               )
           )
