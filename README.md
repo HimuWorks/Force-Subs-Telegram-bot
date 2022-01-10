@@ -10,6 +10,19 @@
 
 ## Deploy
 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+### Installing Prerequisite
+
+- On Ubuntu 18.04 or later
+
+```sh
+
+sudo apt-get install git python3 python3-pip libpq-dev
+
+```
+
 ### Installation
 - Clone this repo
 ```
